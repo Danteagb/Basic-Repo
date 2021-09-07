@@ -1,0 +1,7 @@
+mkdir basic-repo
+cd basic-repo
+git init
+touch index.html style.css commands.txt
+git add .
+git commit -m "Cree 3 archivos en el directorio: index , style , commands"
+
