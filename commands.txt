@@ -5,3 +5,13 @@ touch index.html style.css commands.txt
 git add .
 git commit -m "Cree 3 archivos en el directorio: index , style , commands"
 
+git add .
+git commit -m "Agregué esta lista de pasos a commands, agregué un h1 en index y agregué un background-color yellow en el css"
+
+git remote add origin https://github.com/Danteagb/Basic-Repo.git
+git push origin master
+
+git add commands.txt
+git commit -m "Agregué todos los pasos que faltaban en el commands"
+git push origin master
+
